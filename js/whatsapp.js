@@ -10,14 +10,14 @@ $(document).ready(function() {
 
 function sendWhatsapp() {
     var name = $(".contact_name").val();
-    var email = $(".contact_email").val();
+    var phone = $(".contact_email").val(); // Ahora es campo de teléfono
     var message = $(".contact_message").val();
 
    
     var phoneNumber = "+34602516510";
-    var message = "¡Saludos! Soy " + name +" y necesito ayuda te dejo mis datos. \n \n Nombre: "+ name+" \n Correo electronico: " + email+" \n  Ademas, tengo un mensaje que quiero compartir contigo: "+message+" Agradezco mucho tu ayuda. Espero tu respuesta. ¡Gracias!";
+    var whatsappMessage = "¡Hola Lara! Soy " + name +" y necesito tu ayuda. \n \n 📋 Mis datos: \n • Nombre: "+ name+" \n • Teléfono: " + phone+" \n \n 💬 Mi consulta: \n "+message+" \n \n ¡Espero tu respuesta! Gracias 🙏";
 
-    var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+    var whatsappLink = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(whatsappMessage);
 
     window.open(whatsappLink, "_blank");
     return false;
