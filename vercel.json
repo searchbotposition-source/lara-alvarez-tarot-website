@@ -4,14 +4,10 @@
   "outputDirectory": ".",
   "installCommand": "",
   "framework": null,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/404",
-      "dest": "/404.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/(.*)",
+      "destination": "/$1"
     }
   ],
   "headers": [
