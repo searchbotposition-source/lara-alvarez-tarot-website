@@ -1,0 +1,29 @@
+{
+  "name": "lara-alvarez-tarot-website",
+  "version": "1.0.0",
+  "description": "Sitio web de Lara Álvarez - Vidente y Experta en Amarres de Amor",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "tarot",
+    "amarres",
+    "vidente",
+    "lara-alvarez",
+    "espiritismo",
+    "rituales"
+  ],
+  "author": "Lara Álvarez",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/lara-alvarez-tarot-website.git"
+  },
+  "homepage": "https://lara-alvarez-tarot-website.vercel.app"
+}

@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow: /*.php$
+Allow: /
+Sitemap: https://amarresdeamorconlara.com/sitemaps.xml
