@@ -3963,7 +3963,7 @@ span.my-number {
     display: none;
 }
 .blanter-msg {
-    background: url('https://amarresdeamorconlara.com/css/img/fondo_wa.jpg');
+    /* background: url('../img/fondo_wa.jpg'); */
     padding: 10px;
     text-align: center;
 }
@@ -3989,7 +3989,7 @@ a#send-it { 				/*boton enviar */
 }
 
 .first-msg { 				/*fondo del chat */
-    background: url('https://amarresdeamorconlara.com/css/img/fondo_wa.jpg');
+    /* background: url('../img/fondo_wa.jpg'); */
     padding: 30px;
     text-align: center;
     margin-left: -5px;
