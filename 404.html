@@ -67,8 +67,6 @@
             animation: fadeInUp 1s ease-out 0.7s both;
         
         .warning-message {
-            background: rgba(255, 255, 255, 0.1);
-            border: 2px solid rgba(255, 255, 255, 0.3);
             border-radius: 15px;
             padding: 2rem;
             margin: 2rem 0;
@@ -117,7 +115,6 @@
         
         .floating-element {
             position: absolute;
-            background: rgba(255, 255, 255, 0.1);
             border-radius: 50%;
             animation: float 6s ease-in-out infinite;
         
@@ -193,7 +190,6 @@
         
         .mystical-symbol {
             position: absolute;
-            color: rgba(255, 255, 255, 0.1);
             font-size: 2rem;
             animation: rotate 10s linear infinite;
         
@@ -285,25 +281,3 @@
     
     <!-- JavaScript Libraries -->
     
-        // Initialize WOW.js for animations
-        new WOW().init();
-        
-        // Add some interactive effects
-        $(document).ready(function() {
-            // Add click effect to floating elements
-            $('.floating-element').click(function() {
-                $(this).css('transform', 'scale(1.2)');
-                setTimeout(() => {
-                    $(this).css('transform', '');
-                }, 200);
-            
-            // Add hover effect to mystical symbols
-            $('.mystical-symbol').hover(
-                function() {
-                    $(this).css('color', 'rgba(255, 255, 255, 0.3)');
-                },
-                function() {
-                    $(this).css('color', 'rgba(255, 255, 255, 0.1)');
-            );
-</body>
-</html>
