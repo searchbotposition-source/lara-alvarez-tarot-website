@@ -14,7 +14,7 @@ function sendWhatsapp() {
     var message = $(".contact_message").val();
 
    
-    var phoneNumber = "+34603851060";
+    var phoneNumber = "+34602516510";
     var message = "¡Saludos! Soy " + name +" y necesito ayuda te dejo mis datos. \n \n Nombre: "+ name+" \n Correo electronico: " + email+" \n  Ademas, tengo un mensaje que quiero compartir contigo: "+message+" Agradezco mucho tu ayuda. Espero tu respuesta. ¡Gracias!";
 
     var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
